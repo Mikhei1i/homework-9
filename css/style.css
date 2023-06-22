@@ -1,0 +1,130 @@
+body {
+    font-family: helvetica;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.main-logo {
+    margin-left: 99px;
+}
+
+.main-logo:hover {
+    cursor: pointer;
+}
+
+.menu {
+    margin-right: 72px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 50px;
+    color: #636060;
+    font-weight: 400;
+    font-size: 17px;
+    transition: all 0.15s;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    color: #6c348c;
+}
+
+.s1 {
+    background-image: url(../images/s1-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.s1-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1 {
+    font-size: 79px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 31px;
+}
+
+.travel {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+
+.section-conteiner {
+    margin-left: 100px;
+    display: flex;
+    width: auto;
+}
+
+.hot {
+    display: inline-block;
+    margin-right: 104px;
+}
+
+.hot h2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #636060;
+    margin-bottom: 9px;
+}
+
+.hot h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #010101;
+    margin-bottom: 37px;
+}
+
+.hot p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #636060;
+    width: 235px;
+}
+
+.flex-conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content1 {
+    margin-right: 33px;
+    margin-bottom: 36px;
+}
+
+.content1 img {
+    margin-bottom: 21px;
+}
+
+.content1 h1 {
+    margin-bottom: 9px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #343232;
+}
+
+.content1 p {
+    width: 286px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636060;
+}
