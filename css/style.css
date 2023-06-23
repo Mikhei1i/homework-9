@@ -106,8 +106,15 @@ header {
 }
 
 .content1 {
+    padding: 10px 10px 10px 10px;
     margin-right: 33px;
     margin-bottom: 36px;
+    transition: all 0.15s;
+}
+
+.content1:hover {
+    cursor: pointer;
+    background-color: rgb(235, 232, 232);
 }
 
 .content1 img {
